@@ -1,6 +1,24 @@
 # canvas-rectangle-to-square-image
 
-Generate square image from rectangle image. It's useful for posting to instagram!!
+Generate square image from rectangle image by canvas(webgl). It's useful for posting to instagram!!
+
+## processing step
+
+### step0: input image
+
+![input](./img/input.jpg)
+
+### step1: make square image
+
+![square](./img/square.png)
+
+### step2: blur image
+
+![blurred](./img/blurred.png)
+
+### step3: composite blurred image and original image
+
+![output](./img/output.png)
 
 ## Credits
 
