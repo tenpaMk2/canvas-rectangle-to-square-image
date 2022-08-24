@@ -1,0 +1,11 @@
+{
+  "name": "canvas-rectangle-to-square-image",
+  "type": "module",
+  "scripts": {
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}
