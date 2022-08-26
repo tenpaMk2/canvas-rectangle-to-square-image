@@ -1,6 +1,13 @@
 # canvas-rectangle-to-square-image
 
-Generate square image from rectangle image by canvas(webgl). It's useful for posting to instagram!!
+Generate square image from rectangle image by canvas(webgl).
+It's useful for posting to instagram!!
+
+Techs:
+
+- [Vite](https://vitejs.dev/)
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
 ## processing step
 

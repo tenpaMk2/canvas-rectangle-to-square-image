@@ -1,39 +1,31 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="index.css" />
-    <script defer src="./glfx.js"></script>
-    <script defer type="module" src="./index.js"></script>
-    <title>canvas-rectangle-to-square</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-XXH1C0G0HX"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-6188159-5");
+      gtag("config", "G-XXH1C0G0HX");
+    </script>
+    <!-- End Google Analytics -->
+
+    <title>Instagram用画像変換くん</title>
   </head>
-  <body>
-    <section>
-      <p>
-        ↓のボタンを押して縦長画像を選択してください。横長画像には対応してません❗
-        <b>大きすぎる画像の場合、画質が落ちます。</b>
-        長辺1080pxが最適です。
-      </p>
-    </section>
-    <input id="input" type="file" accept="image/png, image/jpeg, image/webp" />
-    <section id="square-image-section" class="imageLayout">
-      <canvas id="squareCanvas"></canvas>
-      <p>square</p>
-    </section>
-    <section id="blurred-image-section" class="imageLayout">
-      <!-- <canvas id="blurredCanvas"></canvas> -->
-      <p>blurred</p>
-    </section>
-    <section id="output-image-section" class="imageLayout">
-      <canvas id="outputCanvas"></canvas>
-      <p>output</p>
-    </section>
-    <section>
-      <p>outputの画像が表示されたら、↓のボタンを押してDLしてください。</p>
-      <button id="download">download</button>
-      <p>
-        スマホの場合、ポップアップ画面からInstagramへ直接投稿できると思います。
-      </p>
-    </section>
+  <body class="bg-slate-800 text-slate-50">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
